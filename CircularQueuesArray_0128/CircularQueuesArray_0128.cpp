@@ -125,5 +125,10 @@ int main() {
 			}
 			}
 		}
+		catch (exception& e) {
+			cout << "Check for thhe values entered." << endl;
+		}
 	}
+
+	return 0;
 }
